@@ -1,0 +1,217 @@
+body{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 0.75em;
+    border-bottom: #DFF6FF solid 2px;
+    color: #DFF6FF;
+    background-color: #06283D;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-spacer{
+    display: flex;
+    flex-grow: 10;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-social-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-btn{
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1em;
+    color: #DFF6FF;
+    background-color: #06283D;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+    height: 93vh;
+    align-items: center;    
+    text-align: center;
+    background-image: url(/Img/pexels-piccinng-3075993.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-contnent-title{
+    display: flex;
+    
+    font-size: 4em;
+    color: #DFF6FF;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #1363DF;
+}
+
+.hero-contnent-subtitle{
+    display: flex;
+    
+    font-size: 2em;
+
+    color: #DFF6FF;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #1363DF;
+}
+
+.hero-contnent-btn{
+    display: flex;
+    border: 5px solid #DFF6FF;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-size: 1.5em;
+    background-color: rgb(6, 40, 48, 0.7);
+    color: #DFF6FF;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #1363DF(0, 0, 0);
+}
+
+.hero-contnent-btn:hover{
+    background-color: #DFF6FF;
+    color: #1363DF;
+    border: 5px solid #1363DF;
+    padding: 0.75em;
+    font-size: 1.6em;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    border-top: #DFF6FF solid 2px;
+    border-bottom: #DFF6FF solid 2px;
+    background-image: url(https://images.pexels.com/photos/2921139/pexels-photo-2921139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    color: #DFF6FF;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-container-proyectos-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    color: #DFF6FF;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #1363DF;
+}
+
+.section-container-proyectos{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 85vh;
+    
+}
+
+.section-contnent-cards{
+    
+    background-color: rgb(6, 40, 48, 0.7);
+    color: #DFF6FF;
+    border: #DFF6FF solid 3px;
+    border-radius: 8px;
+    height: 55vh;
+    width: 28vw;
+    margin-bottom:2vh;
+}
+
+.section-contnent-cards-btn{
+    display: flex;
+    border: 3px solid #DFF6FF;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-size: 1.25em;
+    background-color: #06283D;
+    color: #DFF6FF;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #1363DF(0, 0, 0);
+}
+
+.section-contnent-cards-btn:hover{
+    background-color: #DFF6FF;
+    color: #1363DF;
+    border: 3px solid #1363DF;
+    font-size: 1.25em;
+}
+
+h3{ 
+    font-size: 2em;
+    color: #DFF6FF;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #1363DF;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.5em;
+    color: #DFF6FF;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #1363DF;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    font-size: 0.75em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    body{
+        font-size: 1em;
+    }
+}
+
+/* colores 
+
+1- 06283D
+2- 1363DF
+3- 47B5FF
+4- DFF6FF 
+
+*/
